@@ -1,11 +1,11 @@
 public class Car {
-    //attribute
+    // attribute
     private String brand;
     private String color;
     private String type;
     private int speed;
 
-    //constructor
+    // constructor
     public Car() {
     }
 
@@ -16,31 +16,31 @@ public class Car {
         this.speed = speed;
     }
 
-    //method
+    // method
     public void acc(int speedInc) {
     }
 
-    // public String getBrand() {
-    //     return "brand: " + brand + "\n";
-    // }
+    public String getBrand() {
+        return "brand: " + brand + "\n";
+    }
 
-    // public String getColor() {
-    //     return "color: " + color + "\n";
-    // }
+    public String getColor() {
+        return "color: " + color + "\n";
+    }
 
-    // public String getType() {
-    //     return "type: " + type + "\n";
-    // }
+    public String getType() {
+        return "type: " + type + "\n";
+    }
 
-    // public String getSpeed() {
-    //     return "speed: " + speed;
-    // }
-
-    // public String getInfo() {
-    //     return getBrand() + getColor() + getType() + getSpeed();
-    // }
+    public String getSpeed() {
+        return "speed: " + speed;
+    }
 
     public String getInfo() {
-        return "brand: " + brand + "\n" + "color: " + color + "\n" + "type: " + type + "\n" + "speed: " + speed;
+        return getBrand() + getColor() + getType() + getSpeed();
     }
+
+    // public String getInfo() {
+    //     return "brand: " + brand + "\n" + "color: " + color + "\n" + "type: " + type + "\n" + "speed: " + speed;
+    // }
 }
