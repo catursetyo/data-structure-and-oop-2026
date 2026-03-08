@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) throws Exception {
-        Noodle gtr = new Noodle("gtr", "white");
+        Gacoan jaki = new Gacoan("gacoan", 150, "pepperoni");
 
-        System.out.println("Hello, World!");
+        jaki.displayInfo();
+        jaki.cook();
     }
 }
