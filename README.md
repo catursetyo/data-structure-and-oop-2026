@@ -122,22 +122,52 @@ class Gacoan extends Noodle {
 }
 ```
 
+## Dependencies
+Before running this project, ensure you have the following installed on your system:
+* **Java Development Kit (JDK)**: Version 8 or higher. You can verify your installation by running `java -version` and `javac -version` in your terminal.
+* **A Terminal or Code Editor**: Visual Studio Code, IntelliJ IDEA, Eclipse, or a standard Command Prompt/Terminal.
+
 ## How to Run the Projects
 
-Since the Java files use `package` declarations, they must be compiled and run from the correct directory level to avoid `NoClassDefFoundError`. 
+Follow these step-by-step instructions to download and run the programs locally on your machine:
 
-Follow these steps for any of the pillars (e.g., `encapsulation`):
+**1. Clone the repository**
+Open your terminal and run the following command to download the project to your local machine:
+```bash
+git clone [https://github.com/catursetyo/data-structure-and-oop.git](https://github.com/catursetyo/data-structure-and-oop.git)
+```
 
-1. Open your terminal and navigate to the `src` folder of the specific topic:
-   ```bash
-   cd encapsulation/src
-2. Compile all Java files in that directory:
-    ```bash
-    javac *.java
-3. Move up one directory level (so the terminal can see the package folder from the outside):
-    ```bash
-    cd ..
-4. Run the compiled program by calling the package name **followed by the Main class**:
-    ```bash
-    java encapsulation.Main
-***(Note: Replace encapsulation with inheritance, polymorphism, or abstraction depending on which program you want to run).***
+**2. Navigate into the project folder**
+```bash
+cd data-structure-and-oop
+```
+
+**3. Go to the specific topic's folder**
+
+Since the Java files use `package` declarations, they must be compiled and run from the correct directory level to avoid a `NoClassDefFoundError`. For example, to run the `encapsulation` project:
+```bash
+cd encapsulation
+```
+
+**4. Compile the Java files**
+
+Compile all `.java` files inside the directory:
+```bash
+javac *.java
+```
+
+**5. Move up one directory level**
+
+Move back one step so the terminal can see the package folder from the outside:
+```bash
+cd ..
+```
+
+**6. Run the compiled program**
+
+Run the program by calling the package name followed by the `Main` class:
+```bash
+java encapsulation.Main
+```
+
+***(Note: Replace `encapsulation` with `inheritance`, `polymorphism`, or `abstraction` depending on which program you want to run).***
