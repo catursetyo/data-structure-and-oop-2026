@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+        Noodle indomie = new Noodle("indomie", "rendang", 3000);
+
+        indomie.setFlavor("matcha");
+        indomie.setPrice(1500);
+
+        System.out.println("Flavor: " + indomie.getFlavor() + "\n" + "Price: " + indomie.getPrice());
     }
 }
