@@ -2,20 +2,20 @@ package polymorphism;
 
 class Noodle {
     public void cook() {
-        System.out.println("Memasak mie instan biasa...");
+        System.out.println("Cooking noodle...");
     }
 }
 
 class Gacoan extends Noodle {
     @Override
     public void cook() {
-        System.out.println("Memasak Mie Gacoan level 6...");
+        System.out.println("Cooking Gacoan...");
     }
 }
 
 class Indomie extends Noodle {
     @Override
     public void cook() {
-        System.out.println("Merebus Indomie al dente...");
+        System.out.println("Cooking Indomie...");
     }
 }
